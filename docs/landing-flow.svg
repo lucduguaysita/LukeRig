@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 580" width="760" height="580" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+  <title>Luke landing flow: intent to deploy, four RESOLVE outcomes</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#A8A49C"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="580" fill="#FFFFFF"/>
+  <text x="24" y="34" font-size="15" font-weight="600" fill="#1F1F1F">A change lands only when it agrees with the others and the charter</text>
+
+  <g fill="none" stroke="#A8A49C" stroke-width="1.25">
+    <path d="M180 100H212" marker-end="url(#arrow)"/>
+    <path d="M364 100H396" marker-end="url(#arrow)"/>
+    <path d="M548 100H580" marker-end="url(#arrow)"/>
+    <path d="M656 126V168" marker-end="url(#arrow)"/>
+    <path d="M104 224V264" marker-end="url(#arrow)"/>
+    <path d="M288 224V264" marker-end="url(#arrow)"/>
+    <path d="M472 224V264" marker-end="url(#arrow)"/>
+    <path d="M656 224V264" marker-end="url(#arrow)"/>
+    <path d="M104 336V386" marker-end="url(#arrow)"/>
+    <path d="M288 336V386" marker-end="url(#arrow)"/>
+    <path d="M472 336V386" marker-end="url(#arrow)"/>
+    <path d="M656 336V386" marker-end="url(#arrow)"/>
+    <path d="M134 438V484" marker-end="url(#arrow)"/>
+    <path d="M318 438V484" marker-end="url(#arrow)"/>
+    <path d="M240 520H272" marker-end="url(#arrow)"/>
+    <path d="M500 520H532" marker-end="url(#arrow)"/>
+  </g>
+
+  <g text-anchor="middle">
+    <rect x="28" y="74" width="152" height="52" rx="8" fill="#FFFFFF" stroke="#A8A49C" stroke-width="1.25"/>
+    <text x="104" y="96" font-weight="600" fill="#1F1F1F">Developer</text>
+    <text x="104" y="114" font-size="11.5" fill="#5F5E5A">intent for a goal</text>
+
+    <rect x="212" y="74" width="152" height="52" rx="8" fill="#FFFFFF" stroke="#A8A49C" stroke-width="1.25"/>
+    <text x="288" y="96" font-weight="600" fill="#1F1F1F">COMMIT</text>
+    <text x="288" y="114" font-size="11.5" fill="#5F5E5A">all or nothing</text>
+
+    <rect x="396" y="74" width="152" height="52" rx="8" fill="#FFFFFF" stroke="#A8A49C" stroke-width="1.25"/>
+    <text x="472" y="96" font-weight="600" fill="#1F1F1F">Landing queue</text>
+    <text x="472" y="114" font-size="11.5" fill="#5F5E5A">one intent at a time</text>
+
+    <rect x="580" y="74" width="152" height="52" rx="8" fill="#FFFFFF" stroke="#A8A49C" stroke-width="1.25"/>
+    <text x="656" y="96" font-weight="600" fill="#1F1F1F">Implementer AI</text>
+    <text x="656" y="114" font-size="11.5" fill="#5F5E5A">writes the code</text>
+
+    <rect x="28" y="168" width="704" height="56" rx="8" fill="#E5EEFB" stroke="#2F6FDE" stroke-width="1.75"/>
+    <text x="380" y="191" font-weight="600" fill="#1F1F1F">RESOLVE, automatic on every landing</text>
+    <text x="380" y="211" font-size="11.5" fill="#5F5E5A">Gatekeeper AI checks the intent against landed intents and the charter; all tests run, AUDIT's included</text>
+
+    <rect x="28" y="264" width="152" height="72" rx="8" fill="#E4F3E7" stroke="#1F9D3A" stroke-width="1.75"/>
+    <text x="104" y="288" font-weight="600" fill="#1F1F1F">Landed</text>
+    <text x="104" y="304" font-size="11.5" fill="#5F5E5A">no conflict,</text>
+    <text x="104" y="320" font-size="11.5" fill="#5F5E5A">tests pass</text>
+
+    <rect x="212" y="264" width="152" height="72" rx="8" fill="#E4F3E7" stroke="#1F9D3A" stroke-width="1.75"/>
+    <text x="288" y="288" font-weight="600" fill="#1F1F1F">Auto-resolved</text>
+    <text x="288" y="304" font-size="11.5" fill="#5F5E5A">reason logged</text>
+    <text x="288" y="320" font-size="11.5" fill="#5F5E5A">for both authors</text>
+
+    <rect x="396" y="264" width="152" height="72" rx="8" fill="#FCF4E2" stroke="#E6A817" stroke-width="1.75"/>
+    <text x="472" y="288" font-weight="600" fill="#1F1F1F">Held</text>
+    <text x="472" y="304" font-size="11.5" fill="#5F5E5A">direction conflict</text>
+    <text x="472" y="320" font-size="11.5" fill="#5F5E5A">owners must agree</text>
+
+    <rect x="580" y="264" width="152" height="72" rx="8" fill="#FAE6E7" stroke="#D64045" stroke-width="1.75"/>
+    <text x="656" y="288" font-weight="600" fill="#1F1F1F">Rejected</text>
+    <text x="656" y="304" font-size="11.5" fill="#5F5E5A">charter violated</text>
+    <text x="656" y="320" font-size="11.5" fill="#5F5E5A">detail to owners</text>
+
+    <rect x="28" y="386" width="336" height="52" rx="8" fill="#FFFFFF" stroke="#A8A49C" stroke-width="1.25"/>
+    <text x="196" y="408" font-weight="600" fill="#1F1F1F">Mainline</text>
+    <text x="196" y="426" font-size="11.5" fill="#5F5E5A">landed intents, code frozen beside each</text>
+
+    <rect x="396" y="386" width="336" height="52" rx="8" fill="#FFFFFF" stroke="#A8A49C" stroke-width="1.25"/>
+    <text x="564" y="408" font-weight="600" fill="#1F1F1F">Area owners</text>
+    <text x="564" y="426" font-size="11.5" fill="#5F5E5A">settle held intents, receive policy detail</text>
+
+    <rect x="28" y="484" width="212" height="72" rx="8" fill="#FFFFFF" stroke="#A8A49C" stroke-width="1.25"/>
+    <text x="134" y="508" font-weight="600" fill="#1F1F1F">AUDIT</text>
+    <text x="134" y="524" font-size="11.5" fill="#5F5E5A">independent, hold-out tests</text>
+    <text x="134" y="540" font-size="11.5" fill="#5F5E5A">findings go to owners</text>
+
+    <rect x="272" y="484" width="228" height="72" rx="8" fill="#FFFFFF" stroke="#A8A49C" stroke-width="1.25"/>
+    <text x="386" y="508" font-weight="600" fill="#1F1F1F">RELEASE</text>
+    <text x="386" y="524" font-size="11.5" fill="#5F5E5A">named and immutable</text>
+    <text x="386" y="540" font-size="11.5" fill="#5F5E5A">requires a clean AUDIT</text>
+
+    <rect x="532" y="484" width="200" height="72" rx="8" fill="#FFFFFF" stroke="#A8A49C" stroke-width="1.25"/>
+    <text x="632" y="508" font-weight="600" fill="#1F1F1F">DEPLOY</text>
+    <text x="632" y="524" font-size="11.5" fill="#5F5E5A">staged, auto rollback</text>
+    <text x="632" y="540" font-size="11.5" fill="#5F5E5A">AUDIT writes the RCA</text>
+  </g>
+</svg>
